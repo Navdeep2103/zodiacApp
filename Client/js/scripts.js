@@ -1,0 +1,3 @@
+function getAlerted(){
+	alert('connected')
+}
