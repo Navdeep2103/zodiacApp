@@ -1,11 +1,12 @@
-
 {
   "name": "zodiacapp",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
     "alexa-sdk": "^1.0.25",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "save": "^2.3.2"
   },
   "devDependencies": {},
   "scripts": {
