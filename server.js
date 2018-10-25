@@ -1,4 +1,5 @@
 var express = require('express');
+var key = process.env.api_key;
 
 var app = express();
 
