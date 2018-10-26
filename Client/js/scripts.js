@@ -1,7 +1,7 @@
 var zodiacs =[
 {
 	name: "Aries",
-	image:"/images/Aries.jpg",
+	image:"/images/aries .jpg",
 	month:"March 21-April 20",
 	description:"Aries is ruled by Mars, the fiery red planet of energy and drive. In mythology, Mars was the god of war and aggression. Highly impatient and competitive, many Aries have the fighting spirit of your mythological ruler. You love to be a hero–or to be swept away by one. As the zodiac’s first sign, you were born to be number one. You’re a solo star who steals the spotlight and inspires everyone with your confidence. Yeah, you can be impatient, even a little bossy, especially when you don’t get your way. As the “baby” of the zodiac, you need lots of attention, and can throw quite the tantrum when you don’t get it. Fortunately, you rarely have a problem turning heads. Your friends love to follow as you lead them on the latest adventure. Make sure to let other people be the boss every now and then, too, or you could alienate potential allies. Focus your competitive streak into a diva-worthy goal, delegate to your troops, and you’ll rise to the top!"
 },
