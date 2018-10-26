@@ -2,11 +2,8 @@ var express = require('express');
 var key = process.env.api_key;
 
 var app = express();
-var fs = require('fs');
 
-app.get('/',(req,res)=>{
-fs.readFile('/client/index.html');
-});
+app.use(express.static('client'));
 
 
 // set enviroment variable
