@@ -2,8 +2,13 @@ var express = require('express');
 var key = process.env.api_key;
 
 var app = express();
+var fs = require('fs');
 
-app.use(express.static(__dirname + '/client'));
+app.get('/',(req,res)=>{
+fs.readFile('/client/index.html');
+});
+
+
 // set enviroment variable
 
 var port = process.env.PORT || 3000;
