@@ -7,7 +7,7 @@ var path = require('path');
 
 app.use(express.static(path.join(__dirname, '/client')));
 
-app.use(bodyParser.json());
+
 
 // set enviroment variable
 
