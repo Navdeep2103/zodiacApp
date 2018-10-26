@@ -1,27 +1,16 @@
-var express = require('express');
-var key = process.env.api_key;
-var path = require('path');
- var app = express();
- app.set('view engine', 'html');
 
+var express = require("express");
+var app     = express();
+var path    = require("path");
 
-
-
-
-
-// set enviroment variable
+app.use(express.static(__dirname + '/Client'));
+app.get('/',function(req,res){
+  res.sendFile('index.html');
+  //It will find and locate index.html from View or Scripts
+});
 
 var port = process.env.PORT || 3000;
-app.use(express.static(path.join(__dirname, '/client')));
-app.set('view engine', 'html');
+  app.listen(port, () => {
+console.log('Server is running on port ' + port);
+	});
 
-
-app.get('/', function(req, res) {
-
-    // ejs render automatically looks in the views folder
-    res.render('index');
-});
-
-app.listen(port, () => {
-	console.log('Server is running on port ' + port);
-});
