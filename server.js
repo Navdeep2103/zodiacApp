@@ -1,10 +1,13 @@
 var express = require('express');
 var key = process.env.api_key;
+var path = require('path');
+ var app = express();
 
-var app = express();
 
-app.use(express.static('client'));
 
+app.use(express.static(path.join(__dirname, '/client')));
+
+app.use(bodyParser.json());
 
 // set enviroment variable
 
